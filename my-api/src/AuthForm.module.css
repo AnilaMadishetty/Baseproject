@@ -1,0 +1,25 @@
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .errorInput {
+    border: 1px solid red;
+    background-color: #ffe5e5;
+  }
+  
+  .errorText {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
