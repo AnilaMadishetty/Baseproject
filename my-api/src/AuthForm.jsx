@@ -18,10 +18,10 @@ const PageContainer = styled.div`
 const FormContainer = styled.div`
   width: 400px;
   padding: 30px;
-  border-radius: 12px;
+  border-radius: 32px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   //background: linear-gradient(to bottom, #ffffff, rgba(179, 190, 211, 0.93));
-  background: ${(props) => (props.theme === "light" ? "#fff" : "#333")};
+  background: ${(props) => (props.theme === "light" ? "rgba(246, 247, 248, 0.66)" : "#333")};
   color: ${(props) => (props.theme === "light" ? "#000" : "#fff")};
 `;
 
